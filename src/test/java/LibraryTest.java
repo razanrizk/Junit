@@ -95,12 +95,22 @@ public class LibraryTest {
 	
 	
 	
+	
 	@Test
 	public void test2()
 	{
 		Assert.assertTrue(true);
+		
 	}
 	
+
+	
+	@Test
+	public void test3()
+	{
+		Assert.fail();
+		
+	}
 	
 	
 	
